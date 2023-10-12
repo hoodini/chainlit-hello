@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+* {
+    font-family: 'Righteous', Arial, cursive;
+}
+
+.MuiToolbar-root.MuiToolbar-gutters.MuiToolbar-regular.css-k97ojw,
+.MuiToolbar-root.MuiToolbar-gutters.MuiToolbar-regular.css-ekge34 {
+    background-color: transparent;  /* Make sure the background is transparent */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    opacity: 1;
+}
+
+.MuiToolbar-root.MuiToolbar-gutters.MuiToolbar-regular.css-k97ojw {
+    background-image: url('/public/logo_light.png');
+}
+
+.MuiToolbar-root.MuiToolbar-gutters.MuiToolbar-regular.css-ekge34 {
+    background-image: url('/public/logo_dark.png');
+}
+
+body img[alt="watermark"] {
+    display: none !important;
+}
+
+p.MuiTypography-root.MuiTypography-body1.css-19bkzhi::before {
+    content: "Built with 💔 by YUV.AI to support Israel! #StandWithUs";
+    visibility: visible;
+}
+
+p.MuiTypography-root.MuiTypography-body1.css-19bkzhi {
+    visibility: hidden;
+}
+
+p.MuiTypography-root.MuiTypography-body1.css-pcmo6i::before {
+    content: "Built with 💔 by YUV.AI to support Israel! #StandWithUs";
+    visibility: visible;
+}
+
+p.MuiTypography-root.MuiTypography-body1.css-pcmo6i {
+    visibility: hidden;
+}
+
